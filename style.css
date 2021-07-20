@@ -1,0 +1,66 @@
+body {
+  background-color: #ffffff;
+  color: #3a3a3a;
+  font-family: Gill Sans, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+
+
+a {
+  color: #002052;
+}
+
+
+
+.pageheader {
+  background-color: #202020;
+  background-image: url("https://cdn.filestackcontent.com/RBhOS6DoRoabKXwa8tC8");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.pageheader img {
+  margin: 30px;
+}
+
+
+
+nav {
+  /*This will have style element (block?), height*/
+  display: block;
+  margin: 0px 0px 15px 0px;
+}
+
+
+
+.pageheader nav a {
+  /*This will have margins,padding, font family, font size, font color, and however the fuck I add that red underline*/
+  margin: 0 8px;
+  padding: 5px 8px;
+  text-decoration: none;
+  border-bottom: 2px solid #BE1E2D;
+  color: #ffffff;
+}
+
+
+
+.pageheader nav a:hover {
+  background: #BE1E2D;
+  text-decoration: none;
+}
+
+
+
+.pageheader nav a.active {
+  background: #ffffff;
+  color: #BE1E2D;
+}
